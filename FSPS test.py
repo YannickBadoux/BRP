@@ -3,9 +3,9 @@ import fsps
 from tqdm import tqdm
 import os
 import matplotlib.pyplot as plt
-import prospector as pros
+import scipy as sc
 
-pros
+
 sp = fsps.StellarPopulation(compute_vega_mags=False, zcontinuous=1, sfh=0, logzsol=0.0, add_dust_emission=False,
     frac_nodust=1, frac_obrun=1)
 
