@@ -1,0 +1,15 @@
+import numpy as np
+
+nfilters = np.loadtxt('needed_filters', delimiter= ',', dtype=str)
+allcurves = np.loadtxt('/home/tobias/projects/BRP/Filters/FILTER.RES.v7.R300.txt', delimiter=",", dtype=str)
+
+file = open("needed_curves", 'w')
+for f in nfilters:
+    mask = np.where(allcurves == f)
+    filt_size = int(f.split()[0])
+    # print(mask)
+    filt_curv = allcurves[int(mask[0]): int(mask[0]) + filt_size + 1]
+    for line in filt_curv:
+        file.write(line +'\n')
+
+file.close()

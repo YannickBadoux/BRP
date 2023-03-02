@@ -1,0 +1,27 @@
+434 VISTA_Ks  +atm  lambda_c= 2.1487e+04  AB-Vega= xxxx
+382 VISTA_H  +atm  lambda_c= 1.6464e+04  AB-Vega= xxxx
+81 COSMOS/SUBARU_filter_z.txt     lambda_c= 9.0282e+03  AB-Vega= 0.514
+94 COSMOS/SUBARU_filter_i.txt     lambda_c= 7.6712e+03  AB-Vega= 0.380
+92 COSMOS/SUBARU_filter_r.txt     lambda_c= 6.2755e+03  AB-Vega= 0.154
+107 COSMOS/SUBARU_filter_V.txt     lambda_c= 5.4702e+03  AB-Vega=-0.000
+118 COSMOS/SUBARU_filter_g.txt     lambda_c= 4.7609e+03  AB-Vega=-0.101
+161 COSMOS/SUBARU_filter_B.txt     lambda_c= 4.4480e+03  AB-Vega=-0.112
+132 megaprime/cfht_mega_u_cfh9301.dat  CFHT-LS+atm  lambda_c= 3.8280e+03  AB-Vega= 0.325
+32 Subaru_MB/IA484.dat     lambda_c= 4.8473e+03  AB-Vega=-0.037
+35 Subaru_MB/IA527.dat     lambda_c= 5.2593e+03  AB-Vega=-0.035
+33 Subaru_MB/IA624.dat     lambda_c= 6.2308e+03  AB-Vega= 0.142
+39 Subaru_MB/IA679.dat     lambda_c= 6.7816e+03  AB-Vega= 0.245
+32 Subaru_MB/IA738.dat     lambda_c= 7.3595e+03  AB-Vega= 0.334
+28 Subaru_MB/IA768.dat     lambda_c= 7.6804e+03  AB-Vega= 0.387
+39 Subaru_MB/IA427.dat     lambda_c= 4.2600e+03  AB-Vega=-0.161
+28 Subaru_MB/IA464.dat     lambda_c= 4.6333e+03  AB-Vega=-0.167
+34 Subaru_MB/IA505.dat     lambda_c= 5.0608e+03  AB-Vega=-0.077
+42 Subaru_MB/IA574.dat     lambda_c= 5.7629e+03  AB-Vega= 0.054
+33 Subaru_MB/IA709.dat     lambda_c= 7.0735e+03  AB-Vega= 0.287
+25 Subaru_MB/IA827.dat     lambda_c= 8.2468e+03  AB-Vega= 0.475
+94 IRAC/irac_tr1_2004-08-09.dat  3.6micron  lambda_c= 3.5569e+04  AB-Vega= 2.781
+86 IRAC/irac_tr2_2004-08-09.dat  4.5micron  lambda_c= 4.5020e+04  AB-Vega= 3.254
+95 IRAC/irac_tr3_2004-08-09.dat  5.8micron  lambda_c= 5.7450e+04  AB-Vega= 3.747
+158 IRAC/irac_tr4_2004-08-09.dat  8.0micron  lambda_c= 7.9158e+04  AB-Vega= 4.387
+18 CAPAK/galex1500.res  FUV  lambda_c= 1.5364e+03  AB-Vega= 2.128
+27 CAPAK/galex2500.res  NUV  lambda_c= 2.2992e+03  AB-Vega= 1.665

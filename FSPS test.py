@@ -1,27 +1,19 @@
-import numpy as np
 import fsps
-from tqdm import tqdm
-import os
+
+# Initialize a StellarPopulation object
+sp = fsps.StellarPopulation(zcontinuous=1)
+
+# Set the age range of interest
+ages = [1e6, 1e7, 1e8] # in years
+
+# Generate the spectra
+spectra = sp.get_spectrum(tage=ages, peraa=True)
+
+# Plot the spectra
 import matplotlib.pyplot as plt
-import scipy as sc
-
-
-sp = fsps.StellarPopulation(compute_vega_mags=False, zcontinuous=1, sfh=0, logzsol=0.0, add_dust_emission=False,
-    frac_nodust=1, frac_obrun=1)
-
-# metaZ = np.linspace(0, 5, 10)
-ages = np.linspace(0.01,13.7, )
-
-
-fig, ax2 = plt.subplots(1,1)
-
-        
- 
-for n in tqdm(ages):
-    wave, spec = sp.get_spectrum(tage=n)
-    ax2.plot(wave, spec, label=f"{n}")
-    # ax2.set_xlim(0, 0.2e6)
-    ax2.set_xscale('log')
-    ax2.set_yscale('log')
-    ax2.legend()
+for i, age in enumerate(ages):
+    plt.plot(spectra[0], spectra[1][:,i], label='{} years'.format(age))
+plt.xlabel('Wavelength (Angstroms)')
+plt.ylabel('Flux (Luminosity per unit wavelength)')
+plt.legend()
 plt.show()
